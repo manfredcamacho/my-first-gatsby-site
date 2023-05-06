@@ -1,49 +1,30 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
+# My First Gatsby Site
 
-## 🚀 Quick start
+This is my first website built with Gatsby. In this repository, I migrated an application that was originally built with only HTML and CSS to a Gatsby site. The goal of this project was to learn and experiment with Gatsby's capabilities and benefits.
 
-1.  **Create a Gatsby site.**
+## Installation and Usage
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+To run this site locally, you can clone this repository and install the dependencies:
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+```sh
+git clone https://github.com/manfredcamacho/my-first-gatsby-site.git
+cd my-first-gatsby-site
+npm install
+```
 
-2.  **Start developing.**
+Then, you can start the development server:
 
-    Navigate into your new site’s directory and start it up.
+```sh
+Copy code
+npm start
+```
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+This will start the development server at http://localhost:8000/.
 
-3.  **Open the code and start customizing!**
+## Comparison with the Original Application
 
-    Your site is now running at http://localhost:8000!
+If you want to compare this Gatsby site with the original application built with only HTML and CSS, you can visit their respective URLs:
 
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+Original application: https://game-station-2021.netlify.app/
+Gatsby site: https://game-station-2023.netlify.app/
+Feel free to explore and compare them!

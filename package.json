@@ -1,8 +1,8 @@
 {
   "name": "my-first-gatsby-site",
-  "version": "1.0.0",
-  "private": true,
-  "description": "my-first-gatsby-site",
+  "version": "2.0.0",
+  "private": false,
+  "description": "This is my first Gatsby site.",
   "author": "Manfred Camacho",
   "keywords": [
     "gatsby"
@@ -15,14 +15,22 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
+    "boxicons": "^2.1.4",
     "gatsby": "^5.9.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^3.9.0",
-    "gatsby-plugin-mdx": "^5.9.0",
     "gatsby-plugin-sharp": "^5.9.0",
-    "gatsby-source-filesystem": "^5.9.0",
-    "gatsby-transformer-sharp": "^5.9.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0"
+  },
+  "overrides": {
+    "gatsby": {
+      "socket.io": {
+        "engine.io": "6.4.2"
+      }
+    }
   },
   "devDependencies": {
     "eslint-config-prettier": "^8.8.0",

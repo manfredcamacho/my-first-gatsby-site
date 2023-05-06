@@ -3,20 +3,19 @@
  */
 module.exports = {
   siteMetadata: {
-    title: "My First Gatsby Site",
-    description: "This is my first Gatsby site!",
-    author: "me",
+    defaultTitle: "My First Gatsby Site",
+    defaultDescription: "This is my first Gatsby site!",
+    author: "Manfred Camacho",
+    siteUrl: "https://game-station-2023.netlify.app",
   },
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
-    "gatsby-plugin-mdx",
-    "gatsby-transformer-sharp",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: "gatsby-plugin-google-fonts",
       options: {
-        name: `blog`,
-        path: `${__dirname}/blog`,
+        fonts: ["Exo 2:300,400,600"],
+        display: "swap",
       },
     },
   ],
