@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7312b674-3d0a-4db9-9cf9-c6bcd74ed9ba/deploy-status)](https://app.netlify.com/sites/game-station-2023/deploys)
 
-This is my first website built with Gatsby. In this repository, I migrated an application that was originally built with only HTML and CSS to a Gatsby site. The goal of this project was to learn and experiment with Gatsby's capabilities and benefits.
+This is my first website built with Gatsby. In this repository, I migrated a [website](https://github.com/manfredcamacho/TP1-FrontEnd-CaC-2021) that was originally built with only HTML and CSS to a Gatsby site. The goal of this project was to learn and experiment with Gatsby's capabilities and benefits.
 
 ## Installation and Usage
 
