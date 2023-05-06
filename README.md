@@ -17,7 +17,6 @@ npm install
 Then, you can start the development server:
 
 ```sh
-Copy code
 npm start
 ```
 
@@ -28,5 +27,7 @@ This will start the development server at http://localhost:8000/.
 If you want to compare this Gatsby site with the original application built with only HTML and CSS, you can visit their respective URLs:
 
 Original application: https://game-station-2021.netlify.app/
+
 Gatsby site: https://game-station-2023.netlify.app/
+
 Feel free to explore and compare them!
