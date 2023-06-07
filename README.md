@@ -28,6 +28,11 @@ If you want to compare this Gatsby site with the original application built with
 
 Original application: https://game-station-2021.netlify.app/
 
+![Screenshot 2023-06-07 at 11 52 25](https://github.com/manfredcamacho/my-first-gatsby-site/assets/12779378/ff8df389-3b58-4d59-92f1-c0d085a74fa7)
+
 Gatsby site: https://game-station-2023.netlify.app/
+
+![Screenshot 2023-06-07 at 11 53 07](https://github.com/manfredcamacho/my-first-gatsby-site/assets/12779378/d302aff0-5e18-4f68-83aa-b2ff334ae10d)
+
 
 Feel free to explore and compare them!
